@@ -7,6 +7,7 @@
 #usage		       :./checkov.sh {WORKk_DIR}
 #bash_version    :5.0.16(1)-release 
 # 
+echo 'in bash script in the original project where it works'
 set -eo pipefail
 
 # The target directory for scanning.
